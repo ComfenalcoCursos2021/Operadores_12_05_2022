@@ -1,0 +1,28 @@
+table{
+    border-spacing: 1px;
+    font-size: 5em;
+}
+thead{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ddeeff;
+}
+thead tr th{
+    padding: 25px;
+}
+thead tr:nth-of-type(2) th{
+    font-weight: 500;
+}
+th, td{
+    outline: 3px solid #aaa;
+}
+tbody{
+    text-align: center;
+    background: #dfd;
+    font-weight: 500;
+}
+.resultado td{
+    background: #29d00c;
+    color: #fff;
+    font-weight: bolder;
+    outline: 3px solid #3900f2;
+}
